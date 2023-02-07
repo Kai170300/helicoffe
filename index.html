@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+    <title>Heli</title>
+</head>
+<body>
+    <nav class="nav">
+        <ion-icon class="burger-btn" name="grid-outline"></ion-icon>
+        <h2 class="logo">HeLi</h2>
+        <div class="nav-menu">
+            <a href="#">home</a>
+            <a href="#menu">menu</a>
+            <a href="#about">about</a>
+            <a href="#testimoni">testimoni</a>
+        </div>
+        <div class="nav-right">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="cart-outline"></ion-icon>
+        </div>
+    </nav>
+    <header>
+        <div class="header-top">
+            <div class="top-left">
+                <h1><span>Perfect</span> time for <br>
+                Perfect <span>coffee</span></h1>
+                <p>“I can’t stop drinking the coffee. I stop drinking the coffee, I stop doing the standing, and the walking, and the words-putting-into-sentences doing.”</p>
+                <button class="header-btn"> see the menu</button>
+            </div>
+            <div class="top-right">
+                <img src="/image/header1.jpeg" alt="">
+            </div>
+        </div>
+        <dvi class="header-bottom">
+            <dvi class="header-detail">
+                <h2>30+</h2>
+                <p>ALL off menu</p>
+            </dvi>
+            <div class="header-detail">
+                <h2>3,800+</h2>
+                <p>Daily oders</p>
+            </div>
+            <div class="header-detail">
+                <h2>12+</h2>
+                <p>Branch stores</p>
+            </div>
+        </dvi>
+    </header>
+
+    <section class="product" id="product">
+        <h2 class="title">The best product we have</h2>
+        <div class="product-filter">
+            <button class="btn-filter" data-filter="*">All</button>
+            <button class="btn-filter" data-filter=".coffee">Coffee</button>
+            <button class="btn-filter" data-filter=".Non-coffee">Non coffee</button>
+            <button class="btn-filter" data-filter=".Cakes">Cakes</button>
+        </div>
+        <div class="product-list" data-ref="product-list">
+            <div class="product-cart coffee" data-oder="1">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Milk coffee</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 13.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart Non-coffee" data-oder="2">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Hot Coffee</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 18.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart Cakes" data-oder="3">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>capuchino</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$12.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart Cakes" data-oder="4">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>hot coffee</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 9.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart Non-coffee" data-oder="5">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>buberry tea</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$13.2</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart coffee" data-oder="6">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>strawberry tea</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 13.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart coffee" data-oder="7">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>lemon tea</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 11.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart Cakes" data-oder="8">
+                <div class="product-image">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>soda</h4>
+                    <small>.................</small>
+                    <div class="product-price">
+                        <p>$ 13.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="story" id="story">
+        <div class="story-left">
+            <div class="story-column">
+                <img src="/image/a3.jpeg" alt="">
+                <img src="/image/a1.jpeg" alt="">
+            </div>
+            <div class="story-column">
+                <img src="/image/a2.jpeg" alt="">
+                <img src="/image/a3.jpeg" alt="">
+            </div>
+            <div class="story-column">
+                <img src="/image/a3.jpeg" alt="">
+                <img src="/image/a4.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="story-right">
+            <h2 class="title">Our story the best <br>coffee in town</h2>
+            <p>.................</p>
+        </div>
+    </section>
+    <section class="testimoni" id="testimoni">
+        <h2 class="title">Customers Say</h2>
+
+        <swiper-container
+        slides-per-view="3" speed="500" loop="true" css-mode="true"
+        >
+        <swiper-slide>
+            <div class="swiper-slider">
+                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <h4>sam</h4>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="swiper-slider">
+                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <h4>sam</h4>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="swiper-slider">
+                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <h4>sam</h4>
+                </div>
+            </div>
+        </swiper-slide>
+        ...
+        </swiper-container>
+          
+        <!-- <div class="swiper MySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider">
+                    <p>
+                        .............
+                    </p>
+                    <div class="testimoni-pic">
+                        <img src="/image/hotcoffee.jpeg" alt="">
+                        <h4>Jonh Smith</h4>
+                    </div>
+                </div>
+                <div class="swiper-slider">
+                    <p>
+                        .............
+                    </p>
+                    <div class="testimoni-pic">
+                        <img src="/image/hotcoffee.jpeg" alt="">
+                        <h4>No o No</h4>
+                    </div>
+                </div>
+                <div class="swiper-slider">
+                    <p>
+                        .............
+                    </p>
+                    <div class="testimoni-pic">
+                        <img src="/image/hotcoffee.jpeg " alt="">
+                        <h4>Loc Phu Ho</h4>
+                    </div>
+                </div>
+                <div class="swiper-slider">
+                    <p>
+                        .............
+                    </p>
+                    <div class="testimoni-pic">
+                        <img src="/image/hotcoffee.jpeg" alt="">
+                        <h4>Linda</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination">
+                 
+            </div>
+        </div> -->
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <h2 class="title">les't drink your <br>coffe with us</h2>
+            <div class="footer-desc">
+                <p>.....</p>
+                <button class="footer-btn btn-type1">Contact Us</button>
+                <button class="footer-btn btn-type2">Our Product</button>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="footer-logo">Koficup</div>
+        <div class="social-media">
+            <a href="#" class="media-icon"><ion-icon name ="logo-youtube"></ion-icon></a>
+            <a href="#" class="media-icon"><ion-icon name ="logo-instagram"></ion-icon></a>
+            <a href="#" class="media-icon"><ion-icon name ="logo-twitter"></ion-icon></a>
+            <a href="#" class="media-icon"><ion-icon name ="logo-linkedin"></ion-icon></a>
+        </div>
+        <div class="coppyright">Coppyright 2022 Koficup</div> 
+    </footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+<script src="/app.js" ></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="http://cndjs.cloudflare.com/ajax/libs/mixitup/3.3.1/minitup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+</html>
