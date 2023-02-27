@@ -4,25 +4,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="/image/header_preview_rev_1.png" type="image/x-icon" />
+   
+    <link rel="stylesheet" href="asset/fontwasome/css/all.css">
+   
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=PT+Serif&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&family=Bitter:wght@600&family=Lobster&family=PT+Serif&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
 
-    <title>Heli</title>
+
+
+    <title>HeLi</title>
 </head>
 <body>
     <nav class="nav">
         <ion-icon class="burger-btn" name="grid-outline"></ion-icon>
         <h2 class="logo">HeLi</h2>
         <div class="nav-menu">
-            <a href="#">home</a>
-            <a href="#menu">menu</a>
-            <a href="#about">about</a>
-            <a href="#testimoni">testimoni</a>
+            <a href="#">Trang chủ</a>
+            <a href="#product">Menu</a>
+            <a href="#story">Về chúng tôi</a>
+            <a href="#new">Cập nhật</a>
+            <a href="#testimoni">Đánh giá</a>
         </div>
         <div class="nav-right">
-            <ion-icon name="search-outline"></ion-icon>
-            <ion-icon name="cart-outline"></ion-icon>
+            <!-- <ion-icon name="search-outline"></ion-icon> -->
+            <ion-icon name="sunny-outline"></ion-icon>
         </div>
     </nav>
     <header>
@@ -30,8 +46,8 @@
             <div class="top-left">
                 <h1><span>Perfect</span> time for <br>
                 Perfect <span>coffee</span></h1>
-                <p>“I can’t stop drinking the coffee. I stop drinking the coffee, I stop doing the standing, and the walking, and the words-putting-into-sentences doing.”</p>
-                <button class="header-btn"> see the menu</button>
+                <p>"Coffee that's made with passion — Come to our shop and experience satisfaction!"</p>
+                <a href="#product">see the menu</a>
             </div>
             <div class="top-right">
                 <img src="/image/header1.jpeg" alt="">
@@ -39,134 +55,339 @@
         </div>
         <dvi class="header-bottom">
             <dvi class="header-detail">
-                <h2>30+</h2>
+                <h2>50+</h2>
                 <p>ALL off menu</p>
             </dvi>
             <div class="header-detail">
-                <h2>3,800+</h2>
+                <h2>100+</h2>
                 <p>Daily oders</p>
             </div>
             <div class="header-detail">
-                <h2>12+</h2>
-                <p>Branch stores</p>
+                <h2>1</h2>
+                <p>Only stores</p>
             </div>
         </dvi>
     </header>
 
     <section class="product" id="product">
-        <h2 class="title">The best product we have</h2>
+        <h2 class="title">Các món Best Seller</h2>
         <div class="product-filter">
-            <button class="btn-filter" data-filter="*">All</button>
+            <button class="btn-filter none" data-filter="*">All</button>
             <button class="btn-filter" data-filter=".coffee">Coffee</button>
-            <button class="btn-filter" data-filter=".Non-coffee">Non coffee</button>
-            <button class="btn-filter" data-filter=".Cakes">Cakes</button>
+            <button class="btn-filter" data-filter=".tea">Tea</button>
+            <button class="btn-filter" data-filter=".freeze">Freeze</button>
+            <button class="btn-filter" data-filter=".soda">Soda</button>
+            <button class="btn-filter" data-filter=".juice">Juice</button>
+            <button class="btn-filter" data-filter=".yogurt">Yogurt</button>
         </div>
         <div class="product-list" data-ref="product-list">
             <div class="product-cart coffee" data-oder="1">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/cfden.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>Milk coffee</h4>
-                    <small>.................</small>
+                    <h4>Cà phê đen đá</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 13.5</p>
+                        <p>25.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart Non-coffee" data-oder="2">
+            <div class="product-cart coffee" data-oder="2">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/cfsua3.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>Hot Coffee</h4>
-                    <small>.................</small>
+                    <h4>Cà phê sữa đá</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 18.5</p>
+                        <p>$ 27.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart Cakes" data-oder="3">
+             <div class="product-cart coffee" data-oder="3">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/cfsua.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>capuchino</h4>
-                    <small>.................</small>
+                    <h4>Bạc xĩu đá</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$12.5</p>
+                        <p>30.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart Cakes" data-oder="4">
+            <div class="product-cart tea" data-oder="4">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/tradao3.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>hot coffee</h4>
-                    <small>.................</small>
+                    <h4>Trà đào Heli</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 9.5</p>
+                        <p>37.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart Non-coffee" data-oder="5">
+
+            <div class="product-cart tea" data-oder="5">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/trachanhday.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>buberry tea</h4>
-                    <small>.................</small>
+                    <h4>Trà chanh dây</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$13.2</p>
+                        <p>37.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart coffee" data-oder="6">
+            <div class="product-cart tea" data-oder="6">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/trachanhday.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>strawberry tea</h4>
-                    <small>.................</small>
+                    <h4>Trà dâu</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 13.5</p>
+                        <p>37.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart coffee" data-oder="7">
+            <div class="product-cart freeze" data-oder="7">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/293974266_440752714595402_9117410529373386007_n.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>lemon tea</h4>
-                    <small>.................</small>
+                    <h4>Oreo freeze</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 11.5</p>
+                        <p>49.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
             </div>
-            <div class="product-cart Cakes" data-oder="8">
+            <div class="product-cart freeze" data-oder="8">
                 <div class="product-image">
-                    <img src="/image/hotcoffee.jpeg" alt="">
+                    <img src="/image/326399409_1372643466817957_3976195424994234973_n.jpeg" alt="">
                 </div>
                 <div class="product-detail">
-                    <h4>soda</h4>
-                    <small>.................</small>
+                    <h4>Matcha freeze</h4>
+                    <hr>
                     <div class="product-price">
-                        <p>$ 13.5</p>
+                        <p>49.000 VNĐ</p>
                         <ion-icon class="heart" name="heart"></ion-icon>
                     </div>
                 </div>
+            </div>
+            <div class="product-cart freeze" data-oder="9">
+                <div class="product-image">
+                    <img src="/image/dauxay.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>strawberry freeze</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>45.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart soda" data-oder="10">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Soda việt quốc</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>37.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart soda" data-oder="11">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Soda chanh dây</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>37.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart soda" data-oder="12">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Soda dâu</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>39.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart juice" data-oder="13">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Nước ép táo</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>37.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart juice" data-oder="14">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Nước ép táo thơm</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>37.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart juice" data-oder="15">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Nước ép dưa hấu</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>35.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart yogurt" data-oder="16">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Yogurt việt quốc</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>42.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart yogurt" data-oder="17">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Yogurt dâu tây</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>42.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cart yogurt" data-oder="18">
+                <div class="product-image">
+                    <img src="/image/trachanhday.jpeg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Yogurt xoài</h4>
+                    <hr>
+                    <div class="product-price">
+                        <p>42.000 VNĐ</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="new" id="new">
+        <!-- <div class="new__title">
+            Cập nhật
+        </div> -->
+        <div class="new__slider">
+            <div class="new__slider__1 test-slider">
+                <div class="new__image">
+                    <img src="/image/daxay.jpeg " alt="" class="cart--image">
+                </div>
+                <div class="new__slider__1--content">
+                    <h2>Xiên nướng Heli ăn ngon mê ly</h2>
+                    <i class="fa-solid fa-calendar-days"><p>19/02/2023, 15:30</p></i>
+                </div>
+                <!-- <h2>Xiên nướng Heli ăn ngon mê ly</h2>
+                <i class="fa-solid fa-calendar-days"><p>19/02/2023, 18:00</p></i> -->
+            
+            </div>
+
+            <div class="new__slider__1 ">
+                <div class="new__image">
+                    <img src="/image/daxay.jpeg" alt="" class="cart--image">
+                </div>
+                
+                <div class="new__slider__1--content">
+                    <h2>Nguồn cảm hứng từ vị ngon độc đáo</h2>
+                    <i class="fa-solid fa-calendar-days"><p>3/02/2023, 19:00</p></i>
+                </div>
+            </div>
+
+            <div class="new__slider__1">
+                <div class="new__image">
+                    <img src="/image/daxay.jpeg" alt="" class="cart--image">
+                </div>
+                <div class="new__slider__1--content">
+                    <h2>100% trái cây, 0% bất cứ thứ gì khác</h2>
+                    <i class="fa-solid fa-calendar-days"><p>9/01/2023, 6:30</p></i>
+                </div>
+                
+            </div>
+            <div class="new__slider__1 ">
+                <div class="new__image">
+                    <img src="/image/daxay.jpeg" alt="" class="cart--image">
+                </div>
+                <div class="new__slider__1--content">
+                    <h2>Thoát khỏi cái nóng với Freeze!</h2>
+                    <i class="fa-solid fa-calendar-days"><p>19/11/2022, 13:30</p></i>
+                </div>
+                <!-- <h2>Xiên nướng Heli ăn ngon mê ly</h2>
+                <i class="fa-solid fa-calendar-days"><p>19/02/2023, 18:00</p></i> -->
+            
             </div>
         </div>
+        <!-- <div class="new__slider--content">
+            <div class="new__slider__1--content">
+                <h2>100% trái cây, 0% bất cứ thứ gì khác</h2>
+                <i class="fa-solid fa-calendar-days"><p>19/02/2023, 18:00</p></i>
+            </div>
+            <div class="new__slider__1--content">
+                <h2>Thức bia cao cấp từ Pháp và nguồn cảm hứng từ vị ngon độc đáo</h2>
+                <i class="fa-solid fa-calendar-days"><p>19/02/2023, 18:00</p></i>
+            </div>
+            <div class="new__slider__1--content">
+                <h2>100% trái cây, 0% bất cứ thứ gì khác</h2>
+                <i class="fa-solid fa-calendar-days"><p>19/02/2023, 18:00</p></i>
+            </div>
+        </div> -->
     </section>
 
     <section class="story" id="story">
@@ -186,109 +407,73 @@
         </div>
 
         <div class="story-right">
-            <h2 class="title">Our story the best <br>coffee in town</h2>
-            <p>.................</p>
+            <!-- <h2 class="title">Về chúng tôi</h2> -->
+            <p>Chào mừng đến với quán cà phê của chúng tôi! Chúng tôi mời bạn đến và trải nghiệm cà phê chưa từng có. Hạt của chúng tôi được lựa chọn cẩn thận và ủ bằng tình yêu thương để tạo ra hương vị độc đáo cũng như ngon miệng. Các nhân viên pha cà phê đầy nhiệt huyết của chúng tôi luôn cố gắng tạo ra những tách cà phê hoàn hảo, vì vậy bạn có thể chắc chắn tận hưởng trải nghiệm thực sự tuyệt vời. Chúng tôi mong gặp lại bạn sớm!</p>
         </div>
     </section>
+
     <section class="testimoni" id="testimoni">
         <h2 class="title">Customers Say</h2>
+        <div class="content-slider">
+            <div class="swiper-slider">
+                <p>Heli Coffee vào mùa giáng sinh ly siêu dễ thương.
+                    Cả bánh và nước đều rất ngon.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/titi.jpeg" alt="">
+                </div>
+                <h4>Ti Ti</h4>
+            </div>
+            <div class="swiper-slider">
+                <p>Quán xinh, đồ uống vừa xinh vừa chất lượng vừa ngon giá vừa phải, có nhiều combo hấp dẫn, nhân viên rất thân thiện năng động.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/onlyc.png" alt="">  
+                </div>
+                <h4>Only C</h4>
+            </div>
+            <div class="swiper-slider">
+                <p>Đồ uống ở đây rất ngon và đẹp , mọi người ở đây tiếp đón khách rất thân thiện , cởi mở như những người bạn thân thiết vậy.</p>
+                <div class="testimoni-pic">
+                    <img src="/image/tri2.jpeg" alt="">        
+                </div>
+                <h4>Minh Trí</h4>
+            </div>
+        </div>
 
-        <swiper-container
-        slides-per-view="3" speed="500" loop="true" css-mode="true"
-        >
-        <swiper-slide>
-            <div class="swiper-slider">
-                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
-                <div class="testimoni-pic">
-                    <img src="/image/hotcoffee.jpeg" alt="">
-                    <h4>sam</h4>
-                </div>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="swiper-slider">
-                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
-                <div class="testimoni-pic">
-                    <img src="/image/hotcoffee.jpeg" alt="">
-                    <h4>sam</h4>
-                </div>
-            </div>
-        </swiper-slide>
-        <swiper-slide>
-            <div class="swiper-slider">
-                <p>Here, we need to add init="false" attribute to prevent Swiper from initialization until we pass all required parameters.</p>
-                <div class="testimoni-pic">
-                    <img src="/image/hotcoffee.jpeg" alt="">
-                    <h4>sam</h4>
-                </div>
-            </div>
-        </swiper-slide>
         ...
-        </swiper-container>
-          
-        <!-- <div class="swiper MySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slider">
-                    <p>
-                        .............
-                    </p>
-                    <div class="testimoni-pic">
-                        <img src="/image/hotcoffee.jpeg" alt="">
-                        <h4>Jonh Smith</h4>
-                    </div>
-                </div>
-                <div class="swiper-slider">
-                    <p>
-                        .............
-                    </p>
-                    <div class="testimoni-pic">
-                        <img src="/image/hotcoffee.jpeg" alt="">
-                        <h4>No o No</h4>
-                    </div>
-                </div>
-                <div class="swiper-slider">
-                    <p>
-                        .............
-                    </p>
-                    <div class="testimoni-pic">
-                        <img src="/image/hotcoffee.jpeg " alt="">
-                        <h4>Loc Phu Ho</h4>
-                    </div>
-                </div>
-                <div class="swiper-slider">
-                    <p>
-                        .............
-                    </p>
-                    <div class="testimoni-pic">
-                        <img src="/image/hotcoffee.jpeg" alt="">
-                        <h4>Linda</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-pagination">
-                 
-            </div>
-        </div> -->
+
     </section>
 
     <footer>
         <div class="footer-wrapper">
-            <h2 class="title">les't drink your <br>coffe with us</h2>
-            <div class="footer-desc">
-                <p>.....</p>
-                <button class="footer-btn btn-type1">Contact Us</button>
+            
+            <!-- <div class="footer-desc">
+                <button class="footer-btn btn-type1">Contact</button>
                 <button class="footer-btn btn-type2">Our Product</button>
+            </div> -->
+            <div class="footer-infomation">
+                <h2 class="title">Thông tin liên hệ</h2>
+                <i class="fa-solid fa-envelope "><span><a href="mailto:helicoffeebeer@gmail.com">Email : helicoffeebeer@gmail.com</a></span></i>
+                <i class="fa-solid fa-phone"><span>Hotline :<a href="tel:+8409996081">0909996081</a></span></i>
+                <i class="fa-solid fa-location-dot"><span>Address : 1002 Tạ Quang Bửu Phường, 6, Quận 8, Hồ Chí Minh </span></i>
+            </div>
+            <div class="footer-video">
+                <video width="320" height="240" autoplay controls>
+                    <source src="/video/Snapsave_a692a93fb74d51934916572c8d6e972b_1080p.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
         <hr class="divider">
-        <div class="footer-logo">Koficup</div>
+        <div class="footer-logo">Heli</div>
         <div class="social-media">
-            <a href="#" class="media-icon"><ion-icon name ="logo-youtube"></ion-icon></a>
-            <a href="#" class="media-icon"><ion-icon name ="logo-instagram"></ion-icon></a>
-            <a href="#" class="media-icon"><ion-icon name ="logo-twitter"></ion-icon></a>
-            <a href="#" class="media-icon"><ion-icon name ="logo-linkedin"></ion-icon></a>
+            <a href="https://www.facebook.com/helicoffeebeer" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fheli.coffee.beer%3Figshid%3DYmMyMTA2M2Y%253D&h=AT3WsQMFbJ4JKoPHvohbFIdSn1Q1T3m7q5iW6zYHdi-xNjEp6uQ57OADqZfr2Q6fcpcM7fbZVN2bXBIetHOE1E6eHMP_gv2cji2cHppQfBZ457OrC2DO6yU5UzAxmH_C2p-Md6ZduFJoTAplT19I5XxqdbA" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         </div>
-        <div class="coppyright">Coppyright 2022 Koficup</div> 
+        <div class="-footer-addrees">
+            <h2></h2>
+        </div>
+        <div class="coppyright">Eastern light 2022
+            | All rights reserved. Website by Heli.</div> 
     </footer>
 
 
